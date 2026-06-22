@@ -37,15 +37,18 @@ git push
 
 **Settings → Pages → Branch: `main` → Folder: `/docs`**
 
-## 3. Включи GitHub Pages
+## 3. Включи GitHub Pages (новый интерфейс GitHub)
 
-Repo → **Settings** → **Pages**:
-- Source: **Deploy from a branch**
-- Branch: **main**
-- Folder: **`/docs`** (вариант B) или **`/ (root)`** (вариант A)
-- Save
+Если в **Settings → Pages** видишь только **Add a domain** — Pages включается через **GitHub Actions** (файл уже в репо: `.github/workflows/pages.yml`).
 
-Через 1–3 минуты сайт будет доступен.
+После `git push`:
+
+1. Repo → вкладка **Actions** — дождись зелёной галочки **Deploy GitHub Pages**
+2. Repo → **Settings** → **Pages**
+3. **Build and deployment** → Source: **GitHub Actions**
+4. Сайт появится по адресу из раздела Pages (или см. таблицу ниже)
+
+Старый способ (если есть выбор branch): **Deploy from a branch** → `main` → `/ (root)`.
 
 ## 4. Твоя ссылка для App Store
 
@@ -56,9 +59,9 @@ Repo → **Settings** → **Pages**:
 | Репо `bugun-privacy`, файлы в **корне** | `https://USERNAME.github.io/bugun-privacy/privacy/` |
 | Репо `BugunIOS`, папка **`docs/`** | `https://USERNAME.github.io/BugunIOS/privacy/` |
 
-**Пример:** пользователь `rasulq`, репо `bugun-privacy`:
+**Пример для qurmuzov**, репо `bugun-privacy`:
 ```
-https://rasulq.github.io/bugun-privacy/privacy/
+https://qurmuzov.github.io/bugun-privacy/privacy/
 ```
 
 Открой ссылку в браузере — должна открыться политика на AZ/RU/EN.
@@ -72,15 +75,11 @@ https://rasulq.github.io/bugun-privacy/privacy/
 
 Apple принимает ссылки на **github.io** — это нормально.
 
-## 6. Обнови ссылку в приложении (опционально)
+## 6. Приложение Bugun
 
-В `Bugun/Services/AppConfig.swift` замени:
+**В приложении** политика открывается **внутри** (Настройки → Məxfilik / Privacy) из файлов `Bugun/Resources/Legal/privacy_*.txt` — **не** в браузере и не GitHub.
 
-```swift
-static let privacyPolicyURL = URL(string: "https://USERNAME.github.io/bugun-privacy/privacy/")!
-```
-
-Чтобы кнопка «Политика конфиденциальности» в настройках открывала ту же страницу.
+Ссылка `privacyPolicyURL` в `AppConfig.swift` — только для App Store Connect, на UI не влияет.
 
 ## Файлы
 
