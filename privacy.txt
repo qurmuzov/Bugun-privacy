@@ -1,0 +1,451 @@
+================================================================================
+AZƏRBAYCAN
+================================================================================
+
+BUGUN MƏXFİLİK SİYASƏTİ
+
+Qüvvəyə minmə tarixi: 13 iyun 2026
+Son yenilənmə: 13 iyun 2026
+
+Bu Məxfilik Siyasəti («Siyasət») Bugun mobil tətbiqinin («Tətbiq», «biz») Bakı və ətraf ərazilərdə tədbirlər bələdçisi kimi istifadə edilərkən məlumatları necə emal etdiyini izah edir.
+
+Tətbiqdən istifadə etməklə bu Siyasətlə razılaşırsınız. Razı deyilsinizsə, Tətbiqdən istifadə etməyin.
+
+
+1. BİZ KİMİK
+
+Bugun konsert, kino, teatr və digər tədbirləri kəşf etmək üçün müstəqil mobil tətbiqdir. Qeydiyyat tələb olunmur.
+
+Məxfilik üzrə əlaqə:
+E-poçt: support@bugun.app
+
+
+2. HANSİ MƏLUMATLARI EMAL EDİRİK
+
+2.1. Yalnız cihazınızda saxlanılan məlumatlar
+
+İstifadəçi profillərini saxlayan öz serverlərimiz yoxdur. Aşağıdakı məlumatlar iPhone/iPad-də yerli olaraq və lazım olduqda App Group konteynerində (vidget üçün) saxlanılır:
+
+• seçilmiş tədbirlər;
+• dil, mövzu və filtr parametrləri;
+• Bugun Pro abunəliyinin statusu və əlaqəli parametrlər (akcent, ikon, vidget kateqoriyası);
+• məkan icazəsinin sorğulanıb-sorğulanmaması;
+• tədbir xatırlatmalarının parametrləri.
+
+Bu məlumatlar birbaşa bizə göndərilmir və Tətbiqi siləndə silinir (vidget məlumatları əsas tətbiq və vidget uzantısı silindikdə aradan qalxır).
+
+
+2.2. Məkan (istəyə görə)
+
+Tətbiq «istifadə zamanı» məkan icazəsi istəyə bilər ki:
+
+• məkanlara məsafəni göstərsin;
+• «yaxınlıqda» filtrini aktiv etsin;
+• əraziniz üçün hava proqnozunu yaxşılaşdırsın.
+
+Məkan məlumatı cihazda emal olunur. Koordinatları öz serverlərimizdə saxlamırıq və hərəkət tarixçəsi yaratmırıq. iOS Parametrlərindən istənilən vaxt imtina edə və ya icazəni ləğv edə bilərsiniz.
+
+
+2.3. Bildirişlər (istəyə görə)
+
+Bildirişlərə icazə versəniz, Tətbiq seçilmiş tədbirlər üçün yerli xatırlatmalar planlaşdıra bilər və ümumi yeniliklər üçün Firebase Cloud Messaging (FCM) vasitəsilə push-bildirişlər göndərə bilər. Mətn və vaxt cihazda formalaşır.
+
+
+2.4. Təqvim (yalnız Bugun Pro, istəyə görə)
+
+«Təqvimə əlavə et» funksiyası iOS təqviminə yazma icazəsi istəyir. Tədbir Apple Təqviminizə yazılır; biz bu qeydlərin surətini almırıq.
+
+
+2.5. Vidget
+
+Əsas ekranda vidget göstərmək üçün Tətbiq cədvəlin qısa surətini (seçilmiş tədbirlərin adı, vaxtı, məkanı) qorunan App Group konteynerinə group.com.bugunn.app yazır; bu konteynerə yalnız eyni cihazdakı Bugun və onun vidgeti daxil ola bilər.
+
+
+2.6. Açıq mənbələrdən tədbir məlumatları
+
+Tətbiq təşkilatçı və aqreqator saytlarından (məsələn, iTicket.az, kinoteatrlar və digər tərəfdaş mənbələr) ictimai tədbir məlumatlarını yükləyir. Bu, şəxsi məlumat deyil, ictimai afişə məlumatıdır. Səhifə və şəkillər yüklənərkən IP ünvanınız həmin saytlar üçün adi internet qaydaları ilə görünə bilər.
+
+
+2.7. Analitika
+
+İstifadəçilərin Tətbiqlə necə qarşılıqlı əlaqə qurduğunu başa düşmək üçün Firebase Analytics (Google) istifadə edirik: hansı ekranlar açılır, hansı düymələr basılır (məsələn, seçilmişlər, filtrlər, bilet, Pro alışı). Hadisələr anonimləşdirilmiş formada ötürülür və ad, e-poçt və ya dəqiq ünvan daxil deyil.
+
+Google Analytics məxfilik məlumatı:
+https://policies.google.com/privacy
+
+
+2.8. Reklam
+
+Tətbiqin pulsuz versiyasında Google AdMob reklamları (banner, nativ bloklar, tam ekran) göstərilir. GDPR və oxşar tələblərə uyğun olaraq fərdiləşdirilmiş reklamdan əvvəl Google User Messaging Platform (UMP) razılıq forması göstərilə bilər.
+
+AdMob və tərəfdaşları reklam seçimi və ölçməsi üçün cihaz identifikatorlarından (məsələn, iOS-da izləməyə icazə versəniz IDFA), cihaz məlumatından və istifadə statistikasından istifadə edə bilər.
+
+Bugun Pro abunəliyi Tətbiqdə reklamı söndürür.
+
+Google reklam siyasəti:
+https://policies.google.com/technologies/ads
+
+
+2.9. Abunəliklər və ödənişlər
+
+Bugun Pro ödənişləri yalnız Apple tərəfindən App Store və StoreKit vasitəsilə emal olunur. Bank kartı, Apple Pay və ya digər ödəniş məlumatlarını almırıq və saxlamırıq. Apple abunəlik statusunu (aktiv/vaxtı bitmiş) və məhsul identifikatorunu Pro funksiyalarını açmaq üçün bizə ötürə bilər.
+
+
+3. ÜÇÜNCÜ TƏRƏFLƏRƏ ÖTÜRÜLMƏ
+
+Şəxsi məlumatlarınızı satmırıq. Məlumat aşağıdakılar tərəfindən emal oluna bilər:
+
+• Apple Inc. — App Store, StoreKit, bildirişlər, Təqvim, Məkan (ƏS səviyyəsində);
+• Google LLC — Firebase Analytics, Firebase Cloud Messaging, Google AdMob, User Messaging Platform;
+• ictimai tədbir saytlarının operatorları — Tətbiq onların serverlərindən məlumat sorğulayanda.
+
+Ötürmə hər funksiyanın işləməsi üçün lazım olan həcmdə məhdudlaşır.
+
+
+4. TƏHLÜKƏSİZLİK
+
+Yerli məlumatlar iOS-un qorunan mühitində saxlanılır. Məqbul tədbirlər görürük, lakin internet üzərindən ötürmə və ya saxlama tam təhlükəsiz deyil.
+
+
+5. SAXLAMA MÜDDƏTİ
+
+• cihazdakı məlumat — Tətbiqi silənə və ya parametrləri sıfırlayana qədər;
+• analitika hadisələri — Google Firebase parametrləri və siyasətinə uyğun (adətən 14 aya qədər);
+• reklam məlumatları — Google AdMob siyasəti və razılıq seçimlərinizə uyğun.
+
+
+6. UŞAQLAR
+
+Tətbiq 13 yaşından kiçik uşaqlar üçün nəzərdə tutulmayıb və biz qəsdən onların şəxsi məlumatlarını toplamırıq. Uşağın məlumat verdiyini düşünürsünüzsə, support@bugun.app ünvanına yazın — silmək üçün addım atacağıq.
+
+
+7. SEÇİMLƏRİNİZ VƏ HÜQUQLARINIZ
+
+Yaşadığınız ölkədən asılı olaraq məlumatlara çıxış, düzəliş, silinmə və ya emalın məhdudlaşdırılması hüquqlarına malik ola bilərsiniz. Bunları edə bilərsiniz:
+
+• iOS Parametrləri → Məxfilik və Təhlükəsizlik → Məkan Xidmətləri → Bugun — məkanı söndürmək;
+• iOS Parametrlərində və ya Tətbiqdə bildirişləri söndürmək;
+• iOS Parametrləri → Məxfilik və Təhlükəsizlik → İzləmə — reklam izləməsini məhdudlaşdırmaq;
+• UMP forması göstərildikdə reklam razılığını idarə etmək;
+• Bugun Pro alaraq reklamı silmək;
+• yerli məlumatları silmək üçün Tətbiqi silmək.
+
+Məxfilik sorğuları üçün: support@bugun.app. Məqbul müddətdə (adətən 30 gün ərzində) cavab verəcəyik.
+
+
+8. BEYNƏLXALQİ ÖTÜRÜM
+
+Google və Apple məlumatları Azərbaycandan kənar serverlərdə, o cümlədən ABŞ və Aİ-də emal edə bilər; qoruma tədbirləri onların siyasətlərində təsvir olunub.
+
+
+9. SİYASƏTDƏ DƏYİŞİKLİKLƏR
+
+Bu Siyasəti yeniləyə bilərik. Aktual versiya həmişə Tətbiqdə mövcuddur (Parametrlər → Məxfilik Siyasəti). Əhəmiyyətli dəyişikliklərdə «Son yenilənmə» tarixi dəyişdiriləcək. Yeniləmədən sonra istifadəni davam etdirmək yeni redaksiya ilə razılıq deməkdir.
+
+
+10. ƏLAQƏ
+
+Məxfilik sualları üçün:
+support@bugun.app
+
+
+================================================================================
+РУССКИЙ
+================================================================================
+
+ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ BUGUN
+
+Дата вступления в силу: 13 июня 2026 г.
+Последнее обновление: 13 июня 2026 г.
+
+Настоящая Политика конфиденциальности («Политика») описывает, как мобильное приложение Bugun («Приложение», «мы») обрабатывает информацию при использовании сервиса афиши событий в Баку и окрестностях.
+
+Используя Приложение, вы соглашаетесь с условиями этой Политики. Если вы не согласны, пожалуйста, не используйте Приложение.
+
+
+1. КТО МЫ
+
+Bugun — независимое мобильное приложение для просмотра афиши концертов, кино, театра и других мероприятий. Регистрация аккаунта в Приложении не требуется.
+
+Контакт для вопросов о конфиденциальности:
+Электронная почта: support@bugun.app
+
+
+2. КАКИЕ ДАННЫЕ МЫ ОБРАБАТЫВАЕМ
+
+2.1. Данные, которые хранятся только на вашем устройстве
+
+Мы не ведём собственных серверов с персональными данными пользователей. Следующая информация сохраняется локально на iPhone/iPad и, при необходимости, в общем контейнере App Group (для виджета):
+
+• избранные события;
+• язык интерфейса, тема оформления и настройки фильтров;
+• статус подписки Bugun Pro и связанные настройки (акцент, иконка, категория виджета);
+• факт запроса доступа к геолокации;
+• настройки напоминаний о событиях.
+
+Эти данные не передаются нам напрямую и удаляются при удалении Приложения с устройства (данные виджета — при удалении и основного приложения, и расширения виджета).
+
+
+2.2. Геолокация (по вашему выбору)
+
+Приложение может запросить доступ к местоположению «при использовании» (When In Use), чтобы:
+
+• показать расстояние до площадок;
+• включить фильтр «рядом»;
+• улучшить рекомендации по погоде для вашего района.
+
+Координаты обрабатываются на устройстве. Мы не сохраняем ваше местоположение на собственных серверах и не создаём историю перемещений. Вы можете отказать в доступе или отозвать его в Настройках iOS в любой момент.
+
+
+2.3. Уведомления (по вашему выбору)
+
+Если вы разрешите уведомления, Приложение может планировать локальные напоминания о событиях из избранного и отправлять общие push-уведомления через Firebase Cloud Messaging (FCM). Тексты и время напоминаний формируются на устройстве.
+
+
+2.4. Календарь (только Bugun Pro, по вашему выбору)
+
+Функция «Добавить в календарь» запрашивает доступ на запись в календарь iOS. Событие сохраняется в вашем календаре Apple; мы не получаем копию этих записей.
+
+
+2.5. Виджет
+
+Для отображения виджета на главном экране Приложение записывает краткий снимок афиши (названия, время, площадки выбранных событий) в защищённый контейнер App Group group.com.bugunn.app, доступный только приложению Bugun и его виджету на том же устройстве.
+
+
+2.6. Данные о событиях из открытых источников
+
+Приложение загружает публично доступную информацию о мероприятиях с сайтов организаторов и агрегаторов (например, iTicket.az, кинотеатров и других партнёрских источников). Это общедоступные данные афиши, а не персональные данные пользователя. При загрузке изображений и страниц ваш IP-адрес может быть виден соответствующему сайту по обычным правилам интернета.
+
+
+2.7. Аналитика
+
+Мы используем Firebase Analytics (Google) для понимания того, как пользователи взаимодействуют с Приложением: какие экраны открываются, какие кнопки нажимаются (например, избранное, фильтры, покупка билета, подписка Pro). События передаются в обезличенном виде и не содержат вашего имени, email или точного адреса.
+
+Подробнее о данных Google Analytics:
+https://policies.google.com/privacy
+
+
+2.8. Реклама
+
+В бесплатной версии Приложения показывается реклама Google AdMob (баннеры, нативные блоки, полноэкранные объявления). Для соблюдения требований GDPR и аналогичных законов перед показом персонализированной рекламы может отображаться форма согласия Google User Messaging Platform (UMP).
+
+AdMob и его партнёры могут использовать идентификаторы устройства (например, IDFA — если вы разрешили отслеживание в iOS), технические данные устройства и сведения об использовании для подбора и измерения рекламы.
+
+Подписка Bugun Pro отключает рекламу в Приложении.
+
+Политика Google в отношении рекламы:
+https://policies.google.com/technologies/ads
+
+
+2.9. Подписки и покупки
+
+Оплата Bugun Pro обрабатывается исключительно Apple через App Store и StoreKit. Мы не получаем и не храним данные банковской карты, Apple Pay или другие платёжные реквизиты. Apple может передавать нам статус подписки (активна/истекла) и идентификатор продукта для разблокировки функций Pro.
+
+
+3. ПЕРЕДАЧА ДАННЫХ ТРЕТЬИМ ЛИЦАМ
+
+Мы не продаём ваши персональные данные. Информация может обрабатываться следующими категориями получателей:
+
+• Apple Inc. — App Store, StoreKit, уведомления, календарь, геолокация (на уровне ОС);
+• Google LLC — Firebase Analytics, Firebase Cloud Messaging, Google AdMob, User Messaging Platform;
+• владельцы публичных сайтов афиши — при запросе данных о событиях с их серверов.
+
+Передача осуществляется только в объёме, необходимом для работы соответствующей функции.
+
+
+4. ХРАНЕНИЕ И БЕЗОПАСНОСТЬ
+
+Локальные данные хранятся в защищённой среде iOS. Мы применяем разумные организационные и технические меры, однако ни один метод передачи или хранения в интернете не гарантирует абсолютной безопасности.
+
+
+5. СРОК ХРАНЕНИЯ
+
+• данные на устройстве — до удаления Приложения или сброса настроек;
+• аналитические события — в соответствии с настройками и политикой Google Firebase (обычно до 14 месяцев);
+• рекламные данные — в соответствии с политикой Google AdMob и вашими настройками согласия.
+
+
+6. ДЕТИ
+
+Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем персональные данные детей. Если вы считаете, что ребёнок передал нам данные, напишите на support@bugun.app — мы примем меры для их удаления.
+
+
+7. ВАШИ ПРАВА И ВЫБОР
+
+В зависимости от страны проживания вам могут принадлежать права на доступ, исправление, удаление или ограничение обработки данных. Вы можете:
+
+• отключить геолокацию в Настройках iOS → Конфиденциальность → Службы геолокации → Bugun;
+• отключить уведомления в Настройках iOS или в Приложении;
+• ограничить отслеживание рекламы: Настройки iOS → Конфиденциальность → Отслеживание;
+• управлять согласием на рекламу через форму UMP при её показе;
+• оформить Bugun Pro, чтобы убрать рекламу;
+• удалить Приложение, чтобы стереть локальные данные.
+
+Для запросов по персональным данным: support@bugun.app. Мы ответим в разумный срок (обычно до 30 дней).
+
+
+8. МЕЖДУНАРОДНАЯ ПЕРЕДАЧА
+
+Google и Apple могут обрабатывать данные на серверах за пределами Азербайджана, в том числе в США и ЕС, с применением стандартных договорных гарантий и мер защиты, предусмотренных их политиками.
+
+
+9. ИЗМЕНЕНИЯ ПОЛИТИКИ
+
+Мы можем обновлять эту Политику. Актуальная версия всегда доступна в Приложении (Настройки → Политика конфиденциальности). При существенных изменениях дата «Последнее обновление» будет изменена. Продолжение использования после публикации обновления означает согласие с новой редакцией.
+
+
+10. КОНТАКТЫ
+
+По вопросам конфиденциальности и данной Политики:
+support@bugun.app
+
+
+================================================================================
+ENGLISH
+================================================================================
+
+BUGUN PRIVACY POLICY
+
+Effective date: June 13, 2026
+Last updated: June 13, 2026
+
+This Privacy Policy (“Policy”) explains how the Bugun mobile application (“App”, “we”) handles information when you use our events guide for Baku and nearby areas.
+
+By using the App, you agree to this Policy. If you do not agree, please do not use the App.
+
+
+1. WHO WE ARE
+
+Bugun is an independent mobile app for discovering concerts, cinema, theater, and other events. No account registration is required.
+
+Privacy contact:
+Email: support@bugun.app
+
+
+2. WHAT DATA WE PROCESS
+
+2.1. Data stored only on your device
+
+We do not operate our own servers that store your personal profile. The following information is kept locally on your iPhone/iPad and, where needed, in a shared App Group container (for the widget):
+
+• favorite events;
+• language, appearance theme, and filter preferences;
+• Bugun Pro subscription status and related settings (accent, app icon, widget category);
+• whether location permission was requested;
+• event reminder preferences.
+
+This data is not sent to us directly and is removed when you delete the App from your device (widget data is removed when you delete both the main app and the widget extension).
+
+
+2.2. Location (optional)
+
+The App may request “When In Use” location access to:
+
+• show distance to venues;
+• enable the “nearby” filter;
+• improve weather suggestions for your area.
+
+Location is processed on your device. We do not store your coordinates on our own servers and do not build a location history. You can deny or revoke access anytime in iOS Settings.
+
+
+2.3. Notifications (optional)
+
+If you allow notifications, the App can schedule local reminders for favorited events and send broadcast push notifications via Firebase Cloud Messaging (FCM). Reminder content and timing are created on your device.
+
+
+2.4. Calendar (Bugun Pro only, optional)
+
+The “Add to Calendar” feature requests write-only access to your iOS calendar. Events are saved in your Apple Calendar; we do not receive a copy of those entries.
+
+
+2.5. Widget
+
+To show the home-screen widget, the App writes a short snapshot of the schedule (titles, times, and venues of selected events) to the protected App Group container group.com.bugunn.app, accessible only to Bugun and its widget on the same device.
+
+
+2.6. Public event data
+
+The App downloads publicly available event information from organizer and aggregator websites (for example, iTicket.az, cinemas, and other partner sources). This is public listings data, not your personal data. When loading pages or images, your IP address may be visible to those websites under normal internet rules.
+
+
+2.7. Analytics
+
+We use Firebase Analytics (Google) to understand how people use the App: which screens are opened and which actions are taken (for example, favorites, filters, ticket taps, Pro purchases). Events are sent in a de-identified form and do not include your name, email, or precise home address.
+
+Google Analytics privacy information:
+https://policies.google.com/privacy
+
+
+2.8. Advertising
+
+The free version of the App shows Google AdMob ads (banners, native placements, and full-screen interstitials). To meet GDPR and similar requirements, a Google User Messaging Platform (UMP) consent form may appear before personalized ads.
+
+AdMob and its partners may use device identifiers (such as IDFA if you allow tracking in iOS), device information, and usage data to serve and measure ads.
+
+Bugun Pro removes in-app advertising.
+
+Google advertising policies:
+https://policies.google.com/technologies/ads
+
+
+2.9. Subscriptions and purchases
+
+Bugun Pro payments are processed solely by Apple through the App Store and StoreKit. We do not receive or store card numbers, Apple Pay details, or other payment credentials. Apple may share subscription status (active/expired) and product identifiers so we can unlock Pro features.
+
+
+3. SHARING WITH THIRD PARTIES
+
+We do not sell your personal data. Information may be processed by:
+
+• Apple Inc. — App Store, StoreKit, notifications, Calendar, Location (OS level);
+• Google LLC — Firebase Analytics, Firebase Cloud Messaging, Google AdMob, User Messaging Platform;
+• public event website operators — when the App requests event data from their servers.
+
+Sharing is limited to what is needed for each feature to work.
+
+
+4. SECURITY
+
+Local data is stored within the iOS secure environment. We use reasonable safeguards, but no internet transmission or storage method is completely secure.
+
+
+5. RETENTION
+
+• on-device data — until you delete the App or reset preferences;
+• analytics events — per Google Firebase settings and policy (typically up to 14 months);
+• advertising data — per Google AdMob policy and your consent choices.
+
+
+6. CHILDREN
+
+The App is not directed to children under 13, and we do not knowingly collect their personal data. If you believe a child provided data to us, contact support@bugun.app and we will take steps to delete it.
+
+
+7. YOUR CHOICES AND RIGHTS
+
+Depending on your country, you may have rights to access, correct, delete, or restrict processing of your data. You can:
+
+• turn off Location in iOS Settings → Privacy & Security → Location Services → Bugun;
+• turn off Notifications in iOS Settings or in the App;
+• limit ad tracking in iOS Settings → Privacy & Security → Tracking;
+• manage ad consent through the UMP form when shown;
+• subscribe to Bugun Pro to remove ads;
+• delete the App to erase local data.
+
+For privacy requests: support@bugun.app. We will respond within a reasonable time (usually within 30 days).
+
+
+8. INTERNATIONAL TRANSFERS
+
+Google and Apple may process data on servers outside Azerbaijan, including in the United States and European Union, using safeguards described in their policies.
+
+
+9. CHANGES TO THIS POLICY
+
+We may update this Policy. The current version is always available in the App (Settings → Privacy Policy). For material changes, the “Last updated” date will be revised. Continued use after an update means you accept the revised Policy.
+
+
+10. CONTACT
+
+For privacy questions:
+support@bugun.app
